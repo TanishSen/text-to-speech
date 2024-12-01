@@ -3,18 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Text-to-speech</title>
+    <title>Text-to-Speech</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="hero">
-      <h1>Tanish <span>Speaks</span></h1>
+    <header>
+      <h1>Speech <span>ify</span></h1>
+    </header>
+    <main class="hero">
       <textarea placeholder="Write anything here..."></textarea>
       <div class="row">
-        <!-- <select></select> -->
-        <button><img src="play.png" /> Listen</button>
+        <label for="voiceSelect">Choose Voice:</label>
+        <select id="voiceSelect"></select>
       </div>
-    </div>
+      <div class="row">
+        <button><img src="play.png" alt="Play" /> Listen</button>
+      </div>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
