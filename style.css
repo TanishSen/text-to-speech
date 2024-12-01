@@ -95,3 +95,40 @@ button:hover {
   transform: scale(1.1);
   background: linear-gradient(135deg, #ee0979, #ff6a00);
 }
+
+@media (max-width: 768px) {
+  body {
+    height: auto;
+    padding: 20px;
+  }
+
+  .hero {
+    padding: 20px;
+    margin: 10px;
+    width: 90%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  textarea {
+    height: 100px;
+    font-size: 0.9rem;
+  }
+
+  select {
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+
+  button img {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+}
